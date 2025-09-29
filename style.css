@@ -4,11 +4,22 @@ body {
 }
 .header {
     position: fixed;
-    background-color: antiquewhite;
+    background-color: rosybrown;
     width: 100vw;
-    height: 200px;
-    padding-left: 210px;
+    height: 250px;
+    padding-left: 260px;
+    display: grid;
+    grid-template-columns: 10fr 7fr;
+    grid-auto-rows: 100px;
+    gap: 10px;
+
 } 
+
+.header-content {
+   background-color: blueviolet;
+   padding-left: 10px;
+}
+
 .sidebar {
     background-color: aqua;
     position: fixed;
