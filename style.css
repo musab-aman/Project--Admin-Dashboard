@@ -13,11 +13,33 @@ body {
     background-color: aqua;
     position: fixed;
     height: 100vh;
-    width: 200px;
+    width: 250px;
+    display: grid;
+    grid-template-rows: 150px 300px 150px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 11px;
+    align-content: start;
+    gap: 10px;
+
 } 
+
+.sidebar-content {
+    background-color: aquamarine;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.sidebar-contents {
+    background-color: rgb(22, 19, 16);
+    color: white;
+    flex: 1;
+}
 .main {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
