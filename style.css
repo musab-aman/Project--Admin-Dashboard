@@ -177,12 +177,21 @@ button:active {
     align-items: center;
     padding-left: 30px;
 }
+.your {
+    position: absolute;
+    
+}
+
+.ana {
+    position: absolute;
+    right: 10px;
+}
 
 .main {
 background-color: rgb(235,239,245);
 height: 100vh;
 width: 100vw;
-padding-top: 190px;
+padding-top: 220px;
 padding-left: 240px;
 display: inline-grid;
 grid-template-columns: 8fr 4fr;
@@ -193,15 +202,16 @@ gap: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 20px;
-    padding-top: 20px;
+    padding-top: 65px;
     grid-auto-rows: 210px;
 }
 
 .main-content2 {
-    background-color: #0a4b8d;
     height: 20px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    padding-top: 70px;
 }
 
 .maincontent-contents {
@@ -218,11 +228,30 @@ gap: 20px;
     
 }
 
-.main-content-content {
-   height: 200px;
+
+
+
+.main-content-content1 {
+   
+   background-color: white;
+   border-radius: 10px;
+   padding: 20px;
+}
+
+.main-content-content2 {
+  
    background-color: red;
 }
 
+.mcontents {
+  border-bottom: 1px solid grey;
+  margin: 10px;
+}
+
+.mcontent {
+  
+  margin: 10px;
+}
 .share, .eye, .star {
     height: 20px;
     margin-right: 20px;
@@ -232,6 +261,5 @@ gap: 20px;
     display: flex;
     justify-content: end;
 }
-
 
 
